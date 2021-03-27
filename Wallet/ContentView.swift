@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack(spacing: 35) {
-            HeaderView()
-            CardListView()
-            Spacer()
-        }.padding(25)
+        var body: some View {
+            ScrollView{
+            VStack(spacing: 35) {
+                HeaderView()
+                CardListView()
+                BalanceView()
+                Spacer()
+            }.padding(25)
+        }
     }
 }
 
