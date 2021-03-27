@@ -14,7 +14,7 @@ struct HeaderView: View {
                 Text("Good morning")
                     .font(.callout)
                     .foregroundColor(Color(.systemGray3))
-                Text("Psevdo Programmist")
+                Text("Psevda Programmist")
                     .font(.title)
                     .fontWeight(.bold)
             }
